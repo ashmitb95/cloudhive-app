@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CloudHive Feature Idea Portal
+
+This project is a proof of concept for CloudHive's internal feature idea submission tool. It allows employees to submit, explore, and vote on feature ideas for the Integration Hub product.
+
+## Project Structure
+
+```
+cloudhive-app/
+├── src/ 
+   ├── app/                  # Next.js App Router pages
+   ├── components/           # Reusable UI components
+   ├── constants/            # App constants (priorities, routes)
+   ├── data/                 # Static JSON data (employees, ideas)
+   ├── features/             # Feature-specific components and logic
+   ├── lib/                  # Utility functions, API helpers, server actions
+   └── types/                # TypeScript type definitions
+```
 
 ## Getting Started
 
-First, run the development server:
+1. Install dependencies:
+   ```bash
+   pnpm install
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Run the development server:
+   ```bash
+   pnpm dev
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Idea Submission Form**: Submit new feature ideas with summary, description, employee selection, and priority.
+- **Idea List & Voting**: View ideas sorted by upvotes, vote on ideas, and delete ideas.
+- **Idea Exploration**: Click on an idea to view its full details.
+- **Search Functionality**: Search ideas by keywords in summary or description.
+- **Pagination**: Display 20 ideas per page for better performance.
 
-## Learn More
+## Technical Details
 
-To learn more about Next.js, take a look at the following resources:
+- Built with Next.js 15, React 19, TypeScript, and TailwindCSS.
+- Uses pnpm as the package manager.
+- RadixUI for accessible UI components.
+- Server Actions or REST APIs for data interactions.
+- TanStack Query for client-side state management.
+- React Hook Form for form management.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## UI Components
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+We use RadixUI primitives wrapped in custom components to ensure:
+- Accessibility
+- Consistent styling
+- Flexibility in customization
+- Type safety 

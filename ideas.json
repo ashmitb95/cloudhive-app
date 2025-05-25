@@ -1,0 +1,385 @@
+{
+  "ideas": [
+    {
+      "id": "1",
+      "summary": "AI-powered coffee maker that predicts when you'll need caffeine",
+      "description": "An AI system that learns your coding patterns and automatically brews coffee when it detects you're about to hit a complex algorithm.",
+      "status": "pending",
+      "priority": "high",
+      "employeeId": "emp1",
+      "submittedBy": {
+        "id": "emp1",
+        "name": "Alice Developer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
+      },
+      "assignedTo": {
+        "id": "emp2",
+        "name": "Bob Coder",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
+      },
+      "createdAt": "2024-03-15T00:00:00Z",
+      "updatedAt": "2025-05-25T09:38:02.133Z",
+      "upvotes": 51,
+      "downvotes": 3,
+      "comments": []
+    },
+    {
+      "id": "2",
+      "summary": "Code smell detector that sprays air freshener",
+      "description": "A device that detects code smells and automatically sprays air freshener to mask the metaphorical stench.",
+      "status": "approved",
+      "priority": "medium",
+      "employeeId": "emp2",
+      "submittedBy": {
+        "id": "emp2",
+        "name": "Bob Coder",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
+      },
+      "assignedTo": {
+        "id": "emp3",
+        "name": "Carol Engineer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
+      },
+      "createdAt": "2024-03-14T00:00:00Z",
+      "updatedAt": "2025-05-25T09:33:27.810Z",
+      "upvotes": 30,
+      "downvotes": 5,
+      "comments": []
+    },
+    {
+      "id": "3",
+      "summary": "Rubber duck debugging with actual rubber ducks",
+      "description": "A subscription service that sends you a new rubber duck every month to help with debugging. Each duck has a different personality.",
+      "status": "pending",
+      "priority": "low",
+      "employeeId": "emp3",
+      "submittedBy": {
+        "id": "emp3",
+        "name": "Carol Engineer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
+      },
+      "assignedTo": {
+        "id": "emp1",
+        "name": "Alice Developer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
+      },
+      "createdAt": "2024-03-13T00:00:00Z",
+      "updatedAt": "2024-03-13T00:00:00Z",
+      "upvotes": 15,
+      "downvotes": 2,
+      "comments": []
+    },
+    {
+      "id": "4",
+      "summary": "Standing desk that walks around the office",
+      "description": "A motorized standing desk that follows you around the office, ensuring you never have to sit down again.",
+      "status": "rejected",
+      "priority": "high",
+      "employeeId": "emp1",
+      "submittedBy": {
+        "id": "emp1",
+        "name": "Alice Developer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
+      },
+      "assignedTo": {
+        "id": "emp2",
+        "name": "Bob Coder",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
+      },
+      "createdAt": "2024-03-12T00:00:00Z",
+      "updatedAt": "2024-03-12T00:00:00Z",
+      "upvotes": 35,
+      "downvotes": 8,
+      "comments": []
+    },
+    {
+      "id": "5",
+      "summary": "Code review bingo cards",
+      "description": "Generate bingo cards for code reviews with common issues like 'missing semicolon' or 'unused variable'.",
+      "status": "pending",
+      "priority": "low",
+      "employeeId": "emp2",
+      "submittedBy": {
+        "id": "emp2",
+        "name": "Bob Coder",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
+      },
+      "assignedTo": {
+        "id": "emp3",
+        "name": "Carol Engineer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
+      },
+      "createdAt": "2024-03-11T00:00:00Z",
+      "updatedAt": "2024-03-11T00:00:00Z",
+      "upvotes": 20,
+      "downvotes": 1,
+      "comments": []
+    },
+    {
+      "id": "6",
+      "summary": "Keyboard that types faster when you're angry",
+      "description": "A keyboard that detects your typing intensity and automatically increases typing speed when you're frustrated.",
+      "status": "approved",
+      "priority": "medium",
+      "employeeId": "emp3",
+      "submittedBy": {
+        "id": "emp3",
+        "name": "Carol Engineer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
+      },
+      "assignedTo": {
+        "id": "emp1",
+        "name": "Alice Developer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
+      },
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z",
+      "upvotes": 45,
+      "downvotes": 4,
+      "comments": []
+    },
+    {
+      "id": "7",
+      "summary": "Git commit message generator based on your mood",
+      "description": "Analyzes your current mood and generates appropriate commit messages. Angry commits are automatically more aggressive.",
+      "status": "pending",
+      "priority": "low",
+      "employeeId": "emp1",
+      "submittedBy": {
+        "id": "emp1",
+        "name": "Alice Developer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
+      },
+      "assignedTo": {
+        "id": "emp2",
+        "name": "Bob Coder",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
+      },
+      "createdAt": "2024-03-09T00:00:00Z",
+      "updatedAt": "2024-03-09T00:00:00Z",
+      "upvotes": 30,
+      "downvotes": 6,
+      "comments": []
+    },
+    {
+      "id": "8",
+      "summary": "Stand-up meeting hammock",
+      "description": "A hammock that automatically deploys during stand-up meetings, because why stand when you can swing?",
+      "status": "rejected",
+      "priority": "high",
+      "employeeId": "emp2",
+      "submittedBy": {
+        "id": "emp2",
+        "name": "Bob Coder",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
+      },
+      "assignedTo": {
+        "id": "emp3",
+        "name": "Carol Engineer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
+      },
+      "createdAt": "2024-03-08T00:00:00Z",
+      "updatedAt": "2024-03-08T00:00:00Z",
+      "upvotes": 50,
+      "downvotes": 2,
+      "comments": []
+    },
+    {
+      "id": "9",
+      "summary": "Bug detection through interpretive dance",
+      "description": "When a bug is found, the system performs an interpretive dance to explain the issue.",
+      "status": "pending",
+      "priority": "medium",
+      "employeeId": "emp3",
+      "submittedBy": {
+        "id": "emp3",
+        "name": "Carol Engineer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
+      },
+      "assignedTo": {
+        "id": "emp1",
+        "name": "Alice Developer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
+      },
+      "createdAt": "2024-03-07T00:00:00Z",
+      "updatedAt": "2024-03-07T00:00:00Z",
+      "upvotes": 25,
+      "downvotes": 3,
+      "comments": []
+    },
+    {
+      "id": "10",
+      "summary": "Code documentation through memes",
+      "description": "Automatically generates memes to explain complex code sections. The more complex the code, the more absurd the meme.",
+      "status": "approved",
+      "priority": "low",
+      "employeeId": "emp1",
+      "submittedBy": {
+        "id": "emp1",
+        "name": "Alice Developer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
+      },
+      "assignedTo": {
+        "id": "emp2",
+        "name": "Bob Coder",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
+      },
+      "createdAt": "2024-03-06T00:00:00Z",
+      "updatedAt": "2024-03-06T00:00:00Z",
+      "upvotes": 40,
+      "downvotes": 5,
+      "comments": []
+    },
+    {
+      "id": "11",
+      "summary": "Meeting room that detects when meetings could have been emails",
+      "description": "The room automatically ejects participants if it determines the meeting could have been an email.",
+      "status": "pending",
+      "priority": "high",
+      "employeeId": "emp2",
+      "submittedBy": {
+        "id": "emp2",
+        "name": "Bob Coder",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
+      },
+      "assignedTo": {
+        "id": "emp3",
+        "name": "Carol Engineer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
+      },
+      "createdAt": "2024-03-05T00:00:00Z",
+      "updatedAt": "2024-03-05T00:00:00Z",
+      "upvotes": 55,
+      "downvotes": 1,
+      "comments": []
+    },
+    {
+      "id": "12",
+      "summary": "Keyboard that types 'Hello World' when you're not looking",
+      "description": "A prank keyboard that occasionally types 'Hello World' when you look away, just to keep you on your toes.",
+      "status": "rejected",
+      "priority": "low",
+      "employeeId": "emp3",
+      "submittedBy": {
+        "id": "emp3",
+        "name": "Carol Engineer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
+      },
+      "assignedTo": {
+        "id": "emp1",
+        "name": "Alice Developer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
+      },
+      "createdAt": "2024-03-04T00:00:00Z",
+      "updatedAt": "2024-03-04T00:00:00Z",
+      "upvotes": 18,
+      "downvotes": 7,
+      "comments": []
+    },
+    {
+      "id": "13",
+      "summary": "Code review through rap battles",
+      "description": "Instead of written comments, reviewers must express their feedback through rap battles.",
+      "status": "pending",
+      "priority": "medium",
+      "employeeId": "emp1",
+      "submittedBy": {
+        "id": "emp1",
+        "name": "Alice Developer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
+      },
+      "assignedTo": {
+        "id": "emp2",
+        "name": "Bob Coder",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
+      },
+      "createdAt": "2024-03-03T00:00:00Z",
+      "updatedAt": "2024-03-03T00:00:00Z",
+      "upvotes": 32,
+      "downvotes": 4,
+      "comments": []
+    },
+    {
+      "id": "14",
+      "summary": "Standing desk that turns into a treadmill",
+      "description": "When you've been standing too long, it automatically converts into a treadmill. No excuses for not getting your steps in.",
+      "status": "approved",
+      "priority": "high",
+      "employeeId": "emp2",
+      "submittedBy": {
+        "id": "emp2",
+        "name": "Bob Coder",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
+      },
+      "assignedTo": {
+        "id": "emp3",
+        "name": "Carol Engineer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
+      },
+      "createdAt": "2024-03-02T00:00:00Z",
+      "updatedAt": "2024-03-02T00:00:00Z",
+      "upvotes": 48,
+      "downvotes": 2,
+      "comments": []
+    },
+    {
+      "id": "15",
+      "summary": "Bug tracking through interpretive mime",
+      "description": "When a bug is found, a mime artist appears to silently act out the issue.",
+      "status": "pending",
+      "priority": "low",
+      "employeeId": "emp3",
+      "submittedBy": {
+        "id": "emp3",
+        "name": "Carol Engineer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
+      },
+      "assignedTo": {
+        "id": "emp1",
+        "name": "Alice Developer",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
+      },
+      "createdAt": "2024-03-01T00:00:00Z",
+      "updatedAt": "2024-03-01T00:00:00Z",
+      "upvotes": 22,
+      "downvotes": 3,
+      "comments": []
+    },
+    {
+      "id": "9d3e0e48-b188-465d-b79c-3a187a586bbe",
+      "summary": "Test new idea",
+      "description": "qwer",
+      "employeeId": "2",
+      "priority": "medium",
+      "status": "pending",
+      "submittedBy": {
+        "id": "2",
+        "name": "Bob Smith",
+        "profileImage": "https://randomuser.me/api/portraits/men/2.jpg"
+      },
+      "updatedAt": "2025-05-25T13:23:27.382Z",
+      "comments": [],
+      "createdAt": "2025-05-25T13:23:27.382Z",
+      "upvotes": 2,
+      "downvotes": 1
+    },
+    {
+      "id": "3c0bbbbd-ed6b-44b9-b0ac-3e8ed5fdc933",
+      "summary": "Newer Idea",
+      "description": "Newer idea desc",
+      "employeeId": "6",
+      "priority": "high",
+      "submittedBy": {
+        "id": "1",
+        "name": "John Doe",
+        "avatar": "https://i.pravatar.cc/150?u=john@example.com"
+      },
+      "status": "pending",
+      "createdAt": "2025-05-25T13:42:25.917Z",
+      "updatedAt": "2025-05-25T13:42:25.917Z",
+      "upvotes": 0,
+      "downvotes": 1,
+      "comments": []
+    }
+  ]
+}
