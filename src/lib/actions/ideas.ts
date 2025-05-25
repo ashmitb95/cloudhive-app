@@ -1,4 +1,3 @@
-import { Idea, IdeaFormData } from '@/types/idea'
 import { 
     getIdeas as getIdeasServer,
     getIdea as getIdeaServer,

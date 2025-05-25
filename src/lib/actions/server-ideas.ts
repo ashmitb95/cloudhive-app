@@ -1,7 +1,7 @@
 'use server'
 
 import { revalidatePath } from 'next/cache'
-import { Idea, IdeaFormData, Status, Employee } from '@/types/idea'
+import { Idea, IdeaFormData, Status,  } from '@/types/idea'
 import { ideaSchema } from '@/lib/schemas/idea'
 import { v4 as uuidv4 } from 'uuid'
 import fs from 'fs/promises'
@@ -32,7 +32,7 @@ export async function getIdeas(page = 1, limit = 20, searchQuery = '', filterBy 
     const { ideas } = await readIdeas()
     
     // Apply search and filter first
-    let filteredIdeas = ideas.filter(idea => {
+    const filteredIdeas = ideas.filter(idea => {
         // Apply status filter
         if (filterBy !== 'all' && idea.status !== filterBy) {
             return false

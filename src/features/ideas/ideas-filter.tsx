@@ -1,7 +1,6 @@
 'use client'
 
 import { Flex, Select, TextField } from '@radix-ui/themes'
-import { Idea, Priority } from '@/types/idea'
 
 type SortOption = 'newest' | 'oldest' | 'priority'
 type FilterOption = 'all' | 'pending' | 'approved' | 'rejected'
@@ -17,10 +16,8 @@ interface IdeasFilterProps {
 
 export function IdeasFilter({
     sortBy,
-    filterBy,
     searchQuery,
     onSortChange,
-    onFilterChange,
     onSearchChange,
 }: IdeasFilterProps) {
     return (

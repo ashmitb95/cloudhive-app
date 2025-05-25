@@ -1,4 +1,3 @@
-import { PRIORITIES } from '@/constants/priorities';
 
 export enum Status {
     PENDING = 'pending',

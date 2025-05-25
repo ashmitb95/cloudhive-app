@@ -1,7 +1,7 @@
 'use client'
 
 import { Flex, Text, Button } from '@radix-ui/themes'
-import { Idea, Priority } from '@/types/idea'
+import { Priority } from '@/types/idea'
 import { IdeaCard } from './idea-card'
 import { IdeasFilter } from './ideas-filter'
 import { useState, useMemo } from 'react'
