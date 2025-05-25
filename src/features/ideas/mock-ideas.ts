@@ -3,7 +3,7 @@ import fs from 'fs/promises'
 import path from 'path'
 
 
-const IDEAS_FILE_PATH = path.join(process.cwd(), 'ideas.json')
+const IDEAS_FILE_PATH = path.join(process.cwd(), 'src/data/ideas.json')
 
 export async function getMockIdeas(): Promise<Idea[]> {
     try {

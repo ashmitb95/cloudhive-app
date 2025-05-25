@@ -7,7 +7,7 @@ import { v4 as uuidv4 } from 'uuid'
 import fs from 'fs/promises'
 import path from 'path'
 
-const IDEAS_FILE_PATH = path.join(process.cwd(), 'ideas.json')
+const IDEAS_FILE_PATH = path.join(process.cwd(), 'src/data/ideas.json')
 
 async function readIdeas(): Promise<{ ideas: Idea[] }> {
     try {
