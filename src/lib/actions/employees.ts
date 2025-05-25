@@ -2,7 +2,7 @@ import { Employee } from '@/types/employee';
 import fs from 'fs/promises';
 import path from 'path';
 
-const EMPLOYEES_FILE_PATH = path.join(process.cwd(), 'data/employees.json');
+const EMPLOYEES_FILE_PATH = path.join(process.cwd(), 'src/data/employees.json');
 
 export async function getEmployees(): Promise<Employee[]> {
   try {

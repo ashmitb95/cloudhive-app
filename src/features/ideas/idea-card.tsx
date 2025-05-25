@@ -4,6 +4,7 @@ import { Card, Text, Badge, Flex, Avatar, Button, Box } from '@radix-ui/themes'
 import { Idea } from '@/types/idea'
 import { useVoteIdea } from './hooks/use-ideas'
 import { ThumbsUp, ThumbsDown } from 'lucide-react'
+import Link from 'next/link'
 
 interface IdeaCardProps {
     idea: Idea
@@ -25,7 +26,9 @@ export function IdeaCard({ idea }: IdeaCardProps) {
             <Flex direction="column" gap="3">
                 <Flex justify="between" align="center">
                     <Text size="5" weight="bold">
-                        {idea.summary}
+                        <Link href={`/ideas/${idea.id}`} style={{ color: 'inherit', textDecoration: 'none' }}>
+                            {idea.summary}
+                        </Link>
                     </Text>
                     <Badge color={idea.priority === 'high' ? 'red' : idea.priority === 'medium' ? 'yellow' : 'green'}>
                         {idea.priority}
@@ -33,7 +36,9 @@ export function IdeaCard({ idea }: IdeaCardProps) {
                 </Flex>
 
                 <Text size="2" color="gray">
-                    {idea.description}
+                    <Link href={`/ideas/${idea.id}`} style={{ color: 'inherit', textDecoration: 'none' }}>
+                        {idea.description}
+                    </Link>
                 </Text>
 
                 <Flex justify="between" align="center">
