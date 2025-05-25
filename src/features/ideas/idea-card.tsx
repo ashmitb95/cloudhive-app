@@ -1,9 +1,9 @@
 'use client'
 
-import { Card, Text, Badge, Flex, Avatar, Button, Box } from '@radix-ui/themes'
+import { Card, Text, Badge, Flex, Avatar, Button, Box, AlertDialog } from '@radix-ui/themes'
 import { Idea } from '@/types/idea'
-import { useVoteIdea } from '@/hooks/use-ideas'
-import { ThumbsUp, ThumbsDown } from 'lucide-react'
+import { useVoteIdea, useDeleteIdea } from '@/hooks/use-ideas'
+import { ThumbsUp, ThumbsDown, Trash2 } from 'lucide-react'
 import Link from 'next/link'
 
 interface IdeaCardProps {
@@ -12,12 +12,21 @@ interface IdeaCardProps {
 
 export function IdeaCard({ idea }: IdeaCardProps) {
     const voteMutation = useVoteIdea()
+    const deleteMutation = useDeleteIdea()
 
     const handleVote = async (type: 'upvote' | 'downvote') => {
         try {
             await voteMutation.mutateAsync({ id: idea.id, type })
         } catch (error) {
             console.error('Error voting:', error)
+        }
+    }
+
+    const handleDelete = async () => {
+        try {
+            await deleteMutation.mutateAsync(idea.id)
+        } catch (error) {
+            console.error('Error deleting:', error)
         }
     }
 
@@ -72,6 +81,40 @@ export function IdeaCard({ idea }: IdeaCardProps) {
                             <ThumbsDown className="w-4 h-4" />
                             <Text size="1">{idea.downvotes}</Text>
                         </Button>
+                        <AlertDialog.Root>
+                            <AlertDialog.Trigger>
+                                <Button
+                                    variant="ghost"
+                                    size="1"
+                                    color="red"
+                                >
+                                    <Trash2 className="w-4 h-4" />
+                                </Button>
+                            </AlertDialog.Trigger>
+                            <AlertDialog.Content>
+                                <AlertDialog.Title>Delete Idea</AlertDialog.Title>
+                                <AlertDialog.Description>
+                                    Are you sure you want to delete this idea? This action cannot be undone.
+                                </AlertDialog.Description>
+                                <Flex gap="3" mt="4" justify="end">
+                                    <AlertDialog.Cancel>
+                                        <Button variant="soft" color="gray">
+                                            Cancel
+                                        </Button>
+                                    </AlertDialog.Cancel>
+                                    <AlertDialog.Action>
+                                        <Button
+                                            variant="solid"
+                                            color="red"
+                                            onClick={handleDelete}
+                                            disabled={deleteMutation.isPending}
+                                        >
+                                            {deleteMutation.isPending ? 'Deleting...' : 'Delete'}
+                                        </Button>
+                                    </AlertDialog.Action>
+                                </Flex>
+                            </AlertDialog.Content>
+                        </AlertDialog.Root>
                     </Flex>
                 </Box>
             </Flex>
