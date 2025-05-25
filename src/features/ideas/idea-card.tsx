@@ -2,7 +2,7 @@
 
 import { Card, Text, Badge, Flex, Avatar, Button, Box } from '@radix-ui/themes'
 import { Idea } from '@/types/idea'
-import { useVoteIdea } from './hooks/use-ideas'
+import { useVoteIdea } from '@/hooks/use-ideas'
 import { ThumbsUp, ThumbsDown } from 'lucide-react'
 import Link from 'next/link'
 

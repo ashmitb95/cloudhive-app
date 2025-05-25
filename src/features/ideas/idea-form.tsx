@@ -6,7 +6,7 @@ import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 import { Employee, Priority, Status } from '@/types/idea'
-import { useCreateIdea } from './hooks/use-ideas'
+import { useCreateIdea } from '@/hooks/use-ideas'
 
 const formSchema = z.object({
     summary: z.string().min(1, 'Summary is required'),

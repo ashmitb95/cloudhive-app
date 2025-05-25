@@ -5,8 +5,7 @@ import { Idea, Priority } from '@/types/idea'
 import { IdeaCard } from './idea-card'
 import { IdeasFilter } from './ideas-filter'
 import { useState, useMemo } from 'react'
-import { useIdeas } from './hooks/use-ideas'
-import Link from 'next/link'
+import { useIdeas } from '@/hooks/use-ideas'
 
 type SortOption = 'newest' | 'oldest' | 'priority'
 
