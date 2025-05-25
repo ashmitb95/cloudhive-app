@@ -59,7 +59,6 @@ export async function createIdea(data: IdeaFormData) {
             name: 'John Doe',
             avatar: 'https://i.pravatar.cc/150?u=john@example.com'
         },
-        assignedTo: undefined,
         createdAt: new Date().toISOString(),
         updatedAt: new Date().toISOString(),
         upvotes: 0,
