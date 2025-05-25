@@ -6,19 +6,14 @@
       "description": "An AI system that learns your coding patterns and automatically brews coffee when it detects you're about to hit a complex algorithm.",
       "status": "pending",
       "priority": "high",
-      "employeeId": "emp1",
+      "employeeId": "1",
       "submittedBy": {
-        "id": "emp1",
-        "name": "Alice Developer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
-      },
-      "assignedTo": {
-        "id": "emp2",
-        "name": "Bob Coder",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
+        "id": "1",
+        "name": "Alice Johnson",
+        "avatar": "https://randomuser.me/api/portraits/women/1.jpg"
       },
       "createdAt": "2024-03-15T00:00:00Z",
-      "updatedAt": "2025-05-25T09:38:02.133Z",
+      "updatedAt": "2024-03-15T00:00:00Z",
       "upvotes": 51,
       "downvotes": 3,
       "comments": []
@@ -29,19 +24,14 @@
       "description": "A device that detects code smells and automatically sprays air freshener to mask the metaphorical stench.",
       "status": "approved",
       "priority": "medium",
-      "employeeId": "emp2",
+      "employeeId": "2",
       "submittedBy": {
-        "id": "emp2",
-        "name": "Bob Coder",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
-      },
-      "assignedTo": {
-        "id": "emp3",
-        "name": "Carol Engineer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
+        "id": "2",
+        "name": "Bob Smith",
+        "avatar": "https://randomuser.me/api/portraits/men/2.jpg"
       },
       "createdAt": "2024-03-14T00:00:00Z",
-      "updatedAt": "2025-05-25T09:33:27.810Z",
+      "updatedAt": "2024-03-14T00:00:00Z",
       "upvotes": 30,
       "downvotes": 5,
       "comments": []
@@ -52,16 +42,11 @@
       "description": "A subscription service that sends you a new rubber duck every month to help with debugging. Each duck has a different personality.",
       "status": "pending",
       "priority": "low",
-      "employeeId": "emp3",
+      "employeeId": "3",
       "submittedBy": {
-        "id": "emp3",
-        "name": "Carol Engineer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
-      },
-      "assignedTo": {
-        "id": "emp1",
-        "name": "Alice Developer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
+        "id": "3",
+        "name": "Charlie Davis",
+        "avatar": "https://randomuser.me/api/portraits/men/3.jpg"
       },
       "createdAt": "2024-03-13T00:00:00Z",
       "updatedAt": "2024-03-13T00:00:00Z",
@@ -75,16 +60,11 @@
       "description": "A motorized standing desk that follows you around the office, ensuring you never have to sit down again.",
       "status": "rejected",
       "priority": "high",
-      "employeeId": "emp1",
+      "employeeId": "4",
       "submittedBy": {
-        "id": "emp1",
-        "name": "Alice Developer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
-      },
-      "assignedTo": {
-        "id": "emp2",
-        "name": "Bob Coder",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
+        "id": "4",
+        "name": "Danielle Brooks",
+        "avatar": "https://randomuser.me/api/portraits/women/4.jpg"
       },
       "createdAt": "2024-03-12T00:00:00Z",
       "updatedAt": "2024-03-12T00:00:00Z",
@@ -98,16 +78,11 @@
       "description": "Generate bingo cards for code reviews with common issues like 'missing semicolon' or 'unused variable'.",
       "status": "pending",
       "priority": "low",
-      "employeeId": "emp2",
+      "employeeId": "5",
       "submittedBy": {
-        "id": "emp2",
-        "name": "Bob Coder",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
-      },
-      "assignedTo": {
-        "id": "emp3",
-        "name": "Carol Engineer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
+        "id": "5",
+        "name": "Ethan Parker",
+        "avatar": "https://randomuser.me/api/portraits/men/5.jpg"
       },
       "createdAt": "2024-03-11T00:00:00Z",
       "updatedAt": "2024-03-11T00:00:00Z",
@@ -121,16 +96,11 @@
       "description": "A keyboard that detects your typing intensity and automatically increases typing speed when you're frustrated.",
       "status": "approved",
       "priority": "medium",
-      "employeeId": "emp3",
+      "employeeId": "6",
       "submittedBy": {
-        "id": "emp3",
-        "name": "Carol Engineer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
-      },
-      "assignedTo": {
-        "id": "emp1",
-        "name": "Alice Developer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
+        "id": "6",
+        "name": "Fiona Mitchell",
+        "avatar": "https://randomuser.me/api/portraits/women/6.jpg"
       },
       "createdAt": "2024-03-10T00:00:00Z",
       "updatedAt": "2024-03-10T00:00:00Z",
@@ -144,16 +114,11 @@
       "description": "Analyzes your current mood and generates appropriate commit messages. Angry commits are automatically more aggressive.",
       "status": "pending",
       "priority": "low",
-      "employeeId": "emp1",
+      "employeeId": "7",
       "submittedBy": {
-        "id": "emp1",
-        "name": "Alice Developer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
-      },
-      "assignedTo": {
-        "id": "emp2",
-        "name": "Bob Coder",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
+        "id": "7",
+        "name": "George Hamilton",
+        "avatar": "https://randomuser.me/api/portraits/men/7.jpg"
       },
       "createdAt": "2024-03-09T00:00:00Z",
       "updatedAt": "2024-03-09T00:00:00Z",
@@ -167,16 +132,11 @@
       "description": "A hammock that automatically deploys during stand-up meetings, because why stand when you can swing?",
       "status": "rejected",
       "priority": "high",
-      "employeeId": "emp2",
+      "employeeId": "8",
       "submittedBy": {
-        "id": "emp2",
-        "name": "Bob Coder",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
-      },
-      "assignedTo": {
-        "id": "emp3",
-        "name": "Carol Engineer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
+        "id": "8",
+        "name": "Hannah Lee",
+        "avatar": "https://randomuser.me/api/portraits/women/8.jpg"
       },
       "createdAt": "2024-03-08T00:00:00Z",
       "updatedAt": "2024-03-08T00:00:00Z",
@@ -190,16 +150,11 @@
       "description": "When a bug is found, the system performs an interpretive dance to explain the issue.",
       "status": "pending",
       "priority": "medium",
-      "employeeId": "emp3",
+      "employeeId": "9",
       "submittedBy": {
-        "id": "emp3",
-        "name": "Carol Engineer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
-      },
-      "assignedTo": {
-        "id": "emp1",
-        "name": "Alice Developer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
+        "id": "9",
+        "name": "Isaac Thompson",
+        "avatar": "https://randomuser.me/api/portraits/men/9.jpg"
       },
       "createdAt": "2024-03-07T00:00:00Z",
       "updatedAt": "2024-03-07T00:00:00Z",
@@ -213,16 +168,11 @@
       "description": "Automatically generates memes to explain complex code sections. The more complex the code, the more absurd the meme.",
       "status": "approved",
       "priority": "low",
-      "employeeId": "emp1",
+      "employeeId": "10",
       "submittedBy": {
-        "id": "emp1",
-        "name": "Alice Developer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
-      },
-      "assignedTo": {
-        "id": "emp2",
-        "name": "Bob Coder",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
+        "id": "10",
+        "name": "Jasmine Patel",
+        "avatar": "https://randomuser.me/api/portraits/women/10.jpg"
       },
       "createdAt": "2024-03-06T00:00:00Z",
       "updatedAt": "2024-03-06T00:00:00Z",
@@ -236,16 +186,11 @@
       "description": "The room automatically ejects participants if it determines the meeting could have been an email.",
       "status": "pending",
       "priority": "high",
-      "employeeId": "emp2",
+      "employeeId": "1",
       "submittedBy": {
-        "id": "emp2",
-        "name": "Bob Coder",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
-      },
-      "assignedTo": {
-        "id": "emp3",
-        "name": "Carol Engineer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
+        "id": "1",
+        "name": "Alice Johnson",
+        "avatar": "https://randomuser.me/api/portraits/women/1.jpg"
       },
       "createdAt": "2024-03-05T00:00:00Z",
       "updatedAt": "2024-03-05T00:00:00Z",
@@ -259,16 +204,11 @@
       "description": "A prank keyboard that occasionally types 'Hello World' when you look away, just to keep you on your toes.",
       "status": "rejected",
       "priority": "low",
-      "employeeId": "emp3",
+      "employeeId": "2",
       "submittedBy": {
-        "id": "emp3",
-        "name": "Carol Engineer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
-      },
-      "assignedTo": {
-        "id": "emp1",
-        "name": "Alice Developer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
+        "id": "2",
+        "name": "Bob Smith",
+        "avatar": "https://randomuser.me/api/portraits/men/2.jpg"
       },
       "createdAt": "2024-03-04T00:00:00Z",
       "updatedAt": "2024-03-04T00:00:00Z",
@@ -282,16 +222,11 @@
       "description": "Instead of written comments, reviewers must express their feedback through rap battles.",
       "status": "pending",
       "priority": "medium",
-      "employeeId": "emp1",
+      "employeeId": "3",
       "submittedBy": {
-        "id": "emp1",
-        "name": "Alice Developer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
-      },
-      "assignedTo": {
-        "id": "emp2",
-        "name": "Bob Coder",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
+        "id": "3",
+        "name": "Charlie Davis",
+        "avatar": "https://randomuser.me/api/portraits/men/3.jpg"
       },
       "createdAt": "2024-03-03T00:00:00Z",
       "updatedAt": "2024-03-03T00:00:00Z",
@@ -305,16 +240,11 @@
       "description": "When you've been standing too long, it automatically converts into a treadmill. No excuses for not getting your steps in.",
       "status": "approved",
       "priority": "high",
-      "employeeId": "emp2",
+      "employeeId": "4",
       "submittedBy": {
-        "id": "emp2",
-        "name": "Bob Coder",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob&backgroundColor=ffdfbf&hair=shortHair&hairColor=blue"
-      },
-      "assignedTo": {
-        "id": "emp3",
-        "name": "Carol Engineer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
+        "id": "4",
+        "name": "Danielle Brooks",
+        "avatar": "https://randomuser.me/api/portraits/women/4.jpg"
       },
       "createdAt": "2024-03-02T00:00:00Z",
       "updatedAt": "2024-03-02T00:00:00Z",
@@ -328,16 +258,11 @@
       "description": "When a bug is found, a mime artist appears to silently act out the issue.",
       "status": "pending",
       "priority": "low",
-      "employeeId": "emp3",
+      "employeeId": "5",
       "submittedBy": {
-        "id": "emp3",
-        "name": "Carol Engineer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol&backgroundColor=ffdfbf&hair=shortHair&hairColor=green"
-      },
-      "assignedTo": {
-        "id": "emp1",
-        "name": "Alice Developer",
-        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice&backgroundColor=ffdfbf&hair=shortHair&hairColor=red"
+        "id": "5",
+        "name": "Ethan Parker",
+        "avatar": "https://randomuser.me/api/portraits/men/5.jpg"
       },
       "createdAt": "2024-03-01T00:00:00Z",
       "updatedAt": "2024-03-01T00:00:00Z",
@@ -346,39 +271,633 @@
       "comments": []
     },
     {
-      "id": "9d3e0e48-b188-465d-b79c-3a187a586bbe",
-      "summary": "Test new idea",
-      "description": "qwer",
-      "employeeId": "2",
+      "id": "16",
+      "summary": "AI-powered code review that judges your variable names",
+      "description": "An AI system that reviews your code and gives you a score based on how creative your variable names are.",
+      "status": "approved",
       "priority": "medium",
+      "employeeId": "6",
+      "submittedBy": {
+        "id": "6",
+        "name": "Fiona Mitchell",
+        "avatar": "https://randomuser.me/api/portraits/women/6.jpg"
+      },
+      "createdAt": "2024-02-29T00:00:00Z",
+      "updatedAt": "2024-02-29T00:00:00Z",
+      "upvotes": 38,
+      "downvotes": 4,
+      "comments": []
+    },
+    {
+      "id": "17",
+      "summary": "Meeting room that plays elevator music when meetings run long",
+      "description": "After 30 minutes, the room starts playing elevator music that gets progressively louder until everyone leaves.",
       "status": "pending",
+      "priority": "low",
+      "employeeId": "7",
+      "submittedBy": {
+        "id": "7",
+        "name": "George Hamilton",
+        "avatar": "https://randomuser.me/api/portraits/men/7.jpg"
+      },
+      "createdAt": "2024-02-28T00:00:00Z",
+      "updatedAt": "2024-02-28T00:00:00Z",
+      "upvotes": 42,
+      "downvotes": 5,
+      "comments": []
+    },
+    {
+      "id": "18",
+      "summary": "Code editor that changes themes based on your mood",
+      "description": "Your code editor automatically switches between light and dark mode based on your facial expressions.",
+      "status": "rejected",
+      "priority": "high",
+      "employeeId": "8",
+      "submittedBy": {
+        "id": "8",
+        "name": "Hannah Lee",
+        "avatar": "https://randomuser.me/api/portraits/women/8.jpg"
+      },
+      "createdAt": "2024-02-27T00:00:00Z",
+      "updatedAt": "2024-02-27T00:00:00Z",
+      "upvotes": 29,
+      "downvotes": 6,
+      "comments": []
+    },
+    {
+      "id": "19",
+      "summary": "Bug reporting through interpretive dance",
+      "description": "When reporting a bug, you must perform an interpretive dance to explain the issue.",
+      "status": "pending",
+      "priority": "medium",
+      "employeeId": "9",
+      "submittedBy": {
+        "id": "9",
+        "name": "Isaac Thompson",
+        "avatar": "https://randomuser.me/api/portraits/men/9.jpg"
+      },
+      "createdAt": "2024-02-26T00:00:00Z",
+      "updatedAt": "2024-02-26T00:00:00Z",
+      "upvotes": 33,
+      "downvotes": 3,
+      "comments": []
+    },
+    {
+      "id": "20",
+      "summary": "Code review through poetry",
+      "description": "All code reviews must be written in the form of haikus.",
+      "status": "approved",
+      "priority": "low",
+      "employeeId": "10",
+      "submittedBy": {
+        "id": "10",
+        "name": "Jasmine Patel",
+        "avatar": "https://randomuser.me/api/portraits/women/10.jpg"
+      },
+      "createdAt": "2024-02-25T00:00:00Z",
+      "updatedAt": "2024-02-25T00:00:00Z",
+      "upvotes": 27,
+      "downvotes": 4,
+      "comments": []
+    },
+    {
+      "id": "21",
+      "summary": "AI-powered snack dispenser that predicts hunger",
+      "description": "A smart snack dispenser that learns your coding patterns and automatically provides snacks when it detects you're about to enter a debugging session.",
+      "status": "pending",
+      "priority": "high",
+      "employeeId": "1",
+      "submittedBy": {
+        "id": "1",
+        "name": "Alice Johnson",
+        "avatar": "https://randomuser.me/api/portraits/women/1.jpg"
+      },
+      "createdAt": "2024-02-24T00:00:00Z",
+      "updatedAt": "2024-02-24T00:00:00Z",
+      "upvotes": 45,
+      "downvotes": 2,
+      "comments": []
+    },
+    {
+      "id": "22",
+      "summary": "Code quality detector that plays victory music",
+      "description": "A system that analyzes your code quality and plays appropriate victory music when you write clean, efficient code.",
+      "status": "approved",
+      "priority": "medium",
+      "employeeId": "2",
       "submittedBy": {
         "id": "2",
         "name": "Bob Smith",
-        "profileImage": "https://randomuser.me/api/portraits/men/2.jpg"
+        "avatar": "https://randomuser.me/api/portraits/men/2.jpg"
       },
-      "updatedAt": "2025-05-25T13:23:27.382Z",
-      "comments": [],
-      "createdAt": "2025-05-25T13:23:27.382Z",
-      "upvotes": 2,
-      "downvotes": 1
+      "createdAt": "2024-02-23T00:00:00Z",
+      "updatedAt": "2024-02-23T00:00:00Z",
+      "upvotes": 36,
+      "downvotes": 4,
+      "comments": []
     },
     {
-      "id": "3c0bbbbd-ed6b-44b9-b0ac-3e8ed5fdc933",
-      "summary": "Newer Idea",
-      "description": "Newer idea desc",
-      "employeeId": "6",
+      "id": "23",
+      "summary": "Debugging through virtual reality",
+      "description": "A VR system that visualizes your code as a 3D environment, making it easier to spot bugs and understand complex algorithms.",
+      "status": "pending",
+      "priority": "low",
+      "employeeId": "3",
+      "submittedBy": {
+        "id": "3",
+        "name": "Charlie Davis",
+        "avatar": "https://randomuser.me/api/portraits/men/3.jpg"
+      },
+      "createdAt": "2024-02-22T00:00:00Z",
+      "updatedAt": "2024-02-22T00:00:00Z",
+      "upvotes": 28,
+      "downvotes": 3,
+      "comments": []
+    },
+    {
+      "id": "24",
+      "summary": "Office chair that transforms into a gaming chair",
+      "description": "A chair that automatically adjusts its settings when it detects you're taking a gaming break from coding.",
+      "status": "rejected",
       "priority": "high",
+      "employeeId": "4",
+      "submittedBy": {
+        "id": "4",
+        "name": "Danielle Brooks",
+        "avatar": "https://randomuser.me/api/portraits/women/4.jpg"
+      },
+      "createdAt": "2024-02-21T00:00:00Z",
+      "updatedAt": "2024-02-21T00:00:00Z",
+      "upvotes": 41,
+      "downvotes": 7,
+      "comments": []
+    },
+    {
+      "id": "25",
+      "summary": "Code review through emoji reactions",
+      "description": "Replace traditional code review comments with emoji reactions that express the reviewer's feelings about the code.",
+      "status": "pending",
+      "priority": "low",
+      "employeeId": "5",
+      "submittedBy": {
+        "id": "5",
+        "name": "Ethan Parker",
+        "avatar": "https://randomuser.me/api/portraits/men/5.jpg"
+      },
+      "createdAt": "2024-02-20T00:00:00Z",
+      "updatedAt": "2024-02-20T00:00:00Z",
+      "upvotes": 31,
+      "downvotes": 2,
+      "comments": []
+    },
+    {
+      "id": "26",
+      "summary": "Keyboard that types slower when you're tired",
+      "description": "A keyboard that detects fatigue and automatically reduces typing speed to prevent errors when you're tired.",
+      "status": "approved",
+      "priority": "medium",
+      "employeeId": "6",
+      "submittedBy": {
+        "id": "6",
+        "name": "Fiona Mitchell",
+        "avatar": "https://randomuser.me/api/portraits/women/6.jpg"
+      },
+      "createdAt": "2024-02-19T00:00:00Z",
+      "updatedAt": "2024-02-19T00:00:00Z",
+      "upvotes": 39,
+      "downvotes": 3,
+      "comments": []
+    },
+    {
+      "id": "27",
+      "summary": "Git commit message generator based on weather",
+      "description": "Analyzes the local weather and generates commit messages that match the mood of the day.",
+      "status": "pending",
+      "priority": "low",
+      "employeeId": "7",
+      "submittedBy": {
+        "id": "7",
+        "name": "George Hamilton",
+        "avatar": "https://randomuser.me/api/portraits/men/7.jpg"
+      },
+      "createdAt": "2024-02-18T00:00:00Z",
+      "updatedAt": "2024-02-18T00:00:00Z",
+      "upvotes": 34,
+      "downvotes": 5,
+      "comments": []
+    },
+    {
+      "id": "28",
+      "summary": "Meeting room that turns into a nap pod",
+      "description": "When a meeting ends, the room automatically transforms into a comfortable nap pod for quick power naps.",
+      "status": "rejected",
+      "priority": "high",
+      "employeeId": "8",
+      "submittedBy": {
+        "id": "8",
+        "name": "Hannah Lee",
+        "avatar": "https://randomuser.me/api/portraits/women/8.jpg"
+      },
+      "createdAt": "2024-02-17T00:00:00Z",
+      "updatedAt": "2024-02-17T00:00:00Z",
+      "upvotes": 46,
+      "downvotes": 2,
+      "comments": []
+    },
+    {
+      "id": "29",
+      "summary": "Bug detection through sound effects",
+      "description": "When a bug is found, the system plays appropriate sound effects to indicate the severity and type of the issue.",
+      "status": "pending",
+      "priority": "medium",
+      "employeeId": "9",
+      "submittedBy": {
+        "id": "9",
+        "name": "Isaac Thompson",
+        "avatar": "https://randomuser.me/api/portraits/men/9.jpg"
+      },
+      "createdAt": "2024-02-16T00:00:00Z",
+      "updatedAt": "2024-02-16T00:00:00Z",
+      "upvotes": 29,
+      "downvotes": 4,
+      "comments": []
+    },
+    {
+      "id": "30",
+      "summary": "Code documentation through comics",
+      "description": "Automatically generates comic strips to explain complex code sections. The more complex the code, the more elaborate the comic.",
+      "status": "approved",
+      "priority": "low",
+      "employeeId": "10",
+      "submittedBy": {
+        "id": "10",
+        "name": "Jasmine Patel",
+        "avatar": "https://randomuser.me/api/portraits/women/10.jpg"
+      },
+      "createdAt": "2024-02-15T00:00:00Z",
+      "updatedAt": "2024-02-15T00:00:00Z",
+      "upvotes": 37,
+      "downvotes": 4,
+      "comments": []
+    },
+    {
+      "id": "31",
+      "summary": "Meeting room that detects when meetings could have been Slack messages",
+      "description": "The room automatically suggests moving to Slack if it determines the meeting could have been a quick message.",
+      "status": "pending",
+      "priority": "high",
+      "employeeId": "1",
       "submittedBy": {
         "id": "1",
-        "name": "John Doe",
-        "avatar": "https://i.pravatar.cc/150?u=john@example.com"
+        "name": "Alice Johnson",
+        "avatar": "https://randomuser.me/api/portraits/women/1.jpg"
       },
-      "status": "pending",
-      "createdAt": "2025-05-25T13:42:25.917Z",
-      "updatedAt": "2025-05-25T13:42:25.917Z",
-      "upvotes": 0,
+      "createdAt": "2024-02-14T00:00:00Z",
+      "updatedAt": "2024-02-14T00:00:00Z",
+      "upvotes": 49,
       "downvotes": 1,
+      "comments": []
+    },
+    {
+      "id": "32",
+      "summary": "Keyboard that types '404' when you're not looking",
+      "description": "A prank keyboard that occasionally types '404' when you look away, just to keep you on your toes.",
+      "status": "rejected",
+      "priority": "low",
+      "employeeId": "2",
+      "submittedBy": {
+        "id": "2",
+        "name": "Bob Smith",
+        "avatar": "https://randomuser.me/api/portraits/men/2.jpg"
+      },
+      "createdAt": "2024-02-13T00:00:00Z",
+      "updatedAt": "2024-02-13T00:00:00Z",
+      "upvotes": 24,
+      "downvotes": 6,
+      "comments": []
+    },
+    {
+      "id": "33",
+      "summary": "Code review through beatboxing",
+      "description": "Instead of written comments, reviewers must express their feedback through beatboxing.",
+      "status": "pending",
+      "priority": "medium",
+      "employeeId": "3",
+      "submittedBy": {
+        "id": "3",
+        "name": "Charlie Davis",
+        "avatar": "https://randomuser.me/api/portraits/men/3.jpg"
+      },
+      "createdAt": "2024-02-12T00:00:00Z",
+      "updatedAt": "2024-02-12T00:00:00Z",
+      "upvotes": 35,
+      "downvotes": 3,
+      "comments": []
+    },
+    {
+      "id": "34",
+      "summary": "Standing desk that turns into a yoga mat",
+      "description": "When you've been standing too long, it automatically converts into a yoga mat for quick stretching sessions.",
+      "status": "approved",
+      "priority": "high",
+      "employeeId": "4",
+      "submittedBy": {
+        "id": "4",
+        "name": "Danielle Brooks",
+        "avatar": "https://randomuser.me/api/portraits/women/4.jpg"
+      },
+      "createdAt": "2024-02-11T00:00:00Z",
+      "updatedAt": "2024-02-11T00:00:00Z",
+      "upvotes": 43,
+      "downvotes": 2,
+      "comments": []
+    },
+    {
+      "id": "35",
+      "summary": "Bug tracking through shadow puppets",
+      "description": "When a bug is found, a shadow puppet show is performed to explain the issue.",
+      "status": "pending",
+      "priority": "low",
+      "employeeId": "5",
+      "submittedBy": {
+        "id": "5",
+        "name": "Ethan Parker",
+        "avatar": "https://randomuser.me/api/portraits/men/5.jpg"
+      },
+      "createdAt": "2024-02-10T00:00:00Z",
+      "updatedAt": "2024-02-10T00:00:00Z",
+      "upvotes": 26,
+      "downvotes": 4,
+      "comments": []
+    },
+    {
+      "id": "36",
+      "summary": "AI-powered code review that judges your indentation",
+      "description": "An AI system that reviews your code and gives you a score based on how consistent your indentation is.",
+      "status": "approved",
+      "priority": "medium",
+      "employeeId": "6",
+      "submittedBy": {
+        "id": "6",
+        "name": "Fiona Mitchell",
+        "avatar": "https://randomuser.me/api/portraits/women/6.jpg"
+      },
+      "createdAt": "2024-02-09T00:00:00Z",
+      "updatedAt": "2024-02-09T00:00:00Z",
+      "upvotes": 32,
+      "downvotes": 3,
+      "comments": []
+    },
+    {
+      "id": "37",
+      "summary": "Meeting room that plays video game music when meetings run long",
+      "description": "After 30 minutes, the room starts playing video game music that gets progressively more intense until everyone leaves.",
+      "status": "pending",
+      "priority": "low",
+      "employeeId": "7",
+      "submittedBy": {
+        "id": "7",
+        "name": "George Hamilton",
+        "avatar": "https://randomuser.me/api/portraits/men/7.jpg"
+      },
+      "createdAt": "2024-02-08T00:00:00Z",
+      "updatedAt": "2024-02-08T00:00:00Z",
+      "upvotes": 38,
+      "downvotes": 4,
+      "comments": []
+    },
+    {
+      "id": "38",
+      "summary": "Code editor that changes themes based on time of day",
+      "description": "Your code editor automatically switches between themes based on the time of day and natural lighting.",
+      "status": "rejected",
+      "priority": "high",
+      "employeeId": "8",
+      "submittedBy": {
+        "id": "8",
+        "name": "Hannah Lee",
+        "avatar": "https://randomuser.me/api/portraits/women/8.jpg"
+      },
+      "createdAt": "2024-02-07T00:00:00Z",
+      "updatedAt": "2024-02-07T00:00:00Z",
+      "upvotes": 33,
+      "downvotes": 5,
+      "comments": []
+    },
+    {
+      "id": "39",
+      "summary": "Bug reporting through shadow puppets",
+      "description": "When reporting a bug, you must perform a shadow puppet show to explain the issue.",
+      "status": "pending",
+      "priority": "medium",
+      "employeeId": "9",
+      "submittedBy": {
+        "id": "9",
+        "name": "Isaac Thompson",
+        "avatar": "https://randomuser.me/api/portraits/men/9.jpg"
+      },
+      "createdAt": "2024-02-06T00:00:00Z",
+      "updatedAt": "2024-02-06T00:00:00Z",
+      "upvotes": 27,
+      "downvotes": 3,
+      "comments": []
+    },
+    {
+      "id": "40",
+      "summary": "Code review through limericks",
+      "description": "All code reviews must be written in the form of limericks.",
+      "status": "approved",
+      "priority": "low",
+      "employeeId": "10",
+      "submittedBy": {
+        "id": "10",
+        "name": "Jasmine Patel",
+        "avatar": "https://randomuser.me/api/portraits/women/10.jpg"
+      },
+      "createdAt": "2024-02-05T00:00:00Z",
+      "updatedAt": "2024-02-05T00:00:00Z",
+      "upvotes": 31,
+      "downvotes": 4,
+      "comments": []
+    },
+    {
+      "id": "41",
+      "summary": "AI-powered water dispenser that predicts thirst",
+      "description": "A smart water dispenser that learns your coding patterns and automatically provides water when it detects you're about to enter a long coding session.",
+      "status": "pending",
+      "priority": "high",
+      "employeeId": "1",
+      "submittedBy": {
+        "id": "1",
+        "name": "Alice Johnson",
+        "avatar": "https://randomuser.me/api/portraits/women/1.jpg"
+      },
+      "createdAt": "2024-02-04T00:00:00Z",
+      "updatedAt": "2024-02-04T00:00:00Z",
+      "upvotes": 39,
+      "downvotes": 2,
+      "comments": []
+    },
+    {
+      "id": "42",
+      "summary": "Code quality detector that plays failure music",
+      "description": "A system that analyzes your code quality and plays appropriate failure music when you write messy, inefficient code.",
+      "status": "approved",
+      "priority": "medium",
+      "employeeId": "2",
+      "submittedBy": {
+        "id": "2",
+        "name": "Bob Smith",
+        "avatar": "https://randomuser.me/api/portraits/men/2.jpg"
+      },
+      "createdAt": "2024-02-03T00:00:00Z",
+      "updatedAt": "2024-02-03T00:00:00Z",
+      "upvotes": 34,
+      "downvotes": 3,
+      "comments": []
+    },
+    {
+      "id": "43",
+      "summary": "Debugging through augmented reality",
+      "description": "An AR system that overlays debugging information on your physical workspace, making it easier to spot bugs and understand complex algorithms.",
+      "status": "pending",
+      "priority": "low",
+      "employeeId": "3",
+      "submittedBy": {
+        "id": "3",
+        "name": "Charlie Davis",
+        "avatar": "https://randomuser.me/api/portraits/men/3.jpg"
+      },
+      "createdAt": "2024-02-02T00:00:00Z",
+      "updatedAt": "2024-02-02T00:00:00Z",
+      "upvotes": 28,
+      "downvotes": 2,
+      "comments": []
+    },
+    {
+      "id": "44",
+      "summary": "Office chair that transforms into a meditation cushion",
+      "description": "A chair that automatically adjusts its settings when it detects you're taking a meditation break from coding.",
+      "status": "rejected",
+      "priority": "high",
+      "employeeId": "4",
+      "submittedBy": {
+        "id": "4",
+        "name": "Danielle Brooks",
+        "avatar": "https://randomuser.me/api/portraits/women/4.jpg"
+      },
+      "createdAt": "2024-02-01T00:00:00Z",
+      "updatedAt": "2024-02-01T00:00:00Z",
+      "upvotes": 37,
+      "downvotes": 6,
+      "comments": []
+    },
+    {
+      "id": "45",
+      "summary": "Code review through gif reactions",
+      "description": "Replace traditional code review comments with gif reactions that express the reviewer's feelings about the code.",
+      "status": "pending",
+      "priority": "low",
+      "employeeId": "5",
+      "submittedBy": {
+        "id": "5",
+        "name": "Ethan Parker",
+        "avatar": "https://randomuser.me/api/portraits/men/5.jpg"
+      },
+      "createdAt": "2024-01-31T00:00:00Z",
+      "updatedAt": "2024-01-31T00:00:00Z",
+      "upvotes": 25,
+      "downvotes": 1,
+      "comments": []
+    },
+    {
+      "id": "46",
+      "summary": "Keyboard that types faster when you're happy",
+      "description": "A keyboard that detects your mood and automatically increases typing speed when you're in a good mood.",
+      "status": "approved",
+      "priority": "medium",
+      "employeeId": "6",
+      "submittedBy": {
+        "id": "6",
+        "name": "Fiona Mitchell",
+        "avatar": "https://randomuser.me/api/portraits/women/6.jpg"
+      },
+      "createdAt": "2024-01-30T00:00:00Z",
+      "updatedAt": "2024-01-30T00:00:00Z",
+      "upvotes": 36,
+      "downvotes": 3,
+      "comments": []
+    },
+    {
+      "id": "47",
+      "summary": "Git commit message generator based on music",
+      "description": "Analyzes your current playlist and generates commit messages that match the mood of your music.",
+      "status": "pending",
+      "priority": "low",
+      "employeeId": "7",
+      "submittedBy": {
+        "id": "7",
+        "name": "George Hamilton",
+        "avatar": "https://randomuser.me/api/portraits/men/7.jpg"
+      },
+      "createdAt": "2024-01-29T00:00:00Z",
+      "updatedAt": "2024-01-29T00:00:00Z",
+      "upvotes": 30,
+      "downvotes": 4,
+      "comments": []
+    },
+    {
+      "id": "48",
+      "summary": "Meeting room that turns into a gaming room",
+      "description": "When a meeting ends, the room automatically transforms into a gaming room for quick stress relief.",
+      "status": "rejected",
+      "priority": "high",
+      "employeeId": "8",
+      "submittedBy": {
+        "id": "8",
+        "name": "Hannah Lee",
+        "avatar": "https://randomuser.me/api/portraits/women/8.jpg"
+      },
+      "createdAt": "2024-01-28T00:00:00Z",
+      "updatedAt": "2024-01-28T00:00:00Z",
+      "upvotes": 42,
+      "downvotes": 2,
+      "comments": []
+    },
+    {
+      "id": "49",
+      "summary": "Bug detection through sound effects",
+      "description": "When a bug is found, the system plays appropriate sound effects to indicate the severity and type of the issue.",
+      "status": "pending",
+      "priority": "medium",
+      "employeeId": "9",
+      "submittedBy": {
+        "id": "9",
+        "name": "Isaac Thompson",
+        "avatar": "https://randomuser.me/api/portraits/men/9.jpg"
+      },
+      "createdAt": "2024-01-27T00:00:00Z",
+      "updatedAt": "2024-01-27T00:00:00Z",
+      "upvotes": 29,
+      "downvotes": 3,
+      "comments": []
+    },
+    {
+      "id": "50",
+      "summary": "Code documentation through ASCII art",
+      "description": "Automatically generates ASCII art to explain complex code sections. The more complex the code, the more elaborate the art.",
+      "status": "approved",
+      "priority": "low",
+      "employeeId": "10",
+      "submittedBy": {
+        "id": "10",
+        "name": "Jasmine Patel",
+        "avatar": "https://randomuser.me/api/portraits/women/10.jpg"
+      },
+      "createdAt": "2024-01-26T00:00:00Z",
+      "updatedAt": "2024-01-26T00:00:00Z",
+      "upvotes": 35,
+      "downvotes": 4,
       "comments": []
     }
   ]

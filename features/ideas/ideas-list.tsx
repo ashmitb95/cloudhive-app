@@ -1,13 +1,13 @@
 'use client'
 
-import { Flex, Text } from '@radix-ui/themes'
+import { Flex, Text, Button } from '@radix-ui/themes'
 import { Idea, Priority } from '@/types/idea'
 import { IdeaCard } from './idea-card'
 import { IdeasFilter } from './ideas-filter'
 import { useState, useMemo } from 'react'
+import { useIdeas } from './hooks/use-ideas'
 
 type SortOption = 'newest' | 'oldest' | 'priority'
-type FilterOption = 'all' | 'pending' | 'approved' | 'rejected'
 
 const priorityOrder: Record<Priority, number> = {
     high: 3,
@@ -15,41 +15,37 @@ const priorityOrder: Record<Priority, number> = {
     low: 1,
 }
 
-interface IdeasListProps {
-    ideas: Idea[]
-}
-
-export function IdeasList({ ideas }: IdeasListProps) {
+export function IdeasList() {
     const [sortBy, setSortBy] = useState<SortOption>('newest')
-    const [filterBy, setFilterBy] = useState<FilterOption>('all')
-    const [searchQuery, setSearchQuery] = useState('')
+    const {
+        data,
+        page,
+        setPage,
+        totalPages,
+        hasNextPage,
+        hasPrevPage,
+        searchQuery,
+        setSearchQuery,
+        filterBy,
+        setFilterBy
+    } = useIdeas()
 
-    const filteredIdeas = useMemo(() => {
-        return ideas
-            .filter((idea) => {
-                if (filterBy === 'all') return true
-                return idea.status === filterBy
-            })
-            .filter((idea) => {
-                if (!searchQuery) return true
-                return (
-                    idea.summary.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                    idea.description.toLowerCase().includes(searchQuery.toLowerCase())
-                )
-            })
-            .sort((a, b) => {
-                switch (sortBy) {
-                    case 'newest':
-                        return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
-                    case 'oldest':
-                        return new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime()
-                    case 'priority':
-                        return priorityOrder[b.priority] - priorityOrder[a.priority]
-                    default:
-                        return 0
-                }
-            })
-    }, [ideas, sortBy, filterBy, searchQuery])
+    const sortedIdeas = useMemo(() => {
+        if (!data?.ideas) return []
+
+        return [...data.ideas].sort((a, b) => {
+            switch (sortBy) {
+                case 'newest':
+                    return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+                case 'oldest':
+                    return new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime()
+                case 'priority':
+                    return priorityOrder[b.priority] - priorityOrder[a.priority]
+                default:
+                    return 0
+            }
+        })
+    }, [data?.ideas, sortBy])
 
     return (
         <Flex direction="column" gap="4">
@@ -62,16 +58,38 @@ export function IdeasList({ ideas }: IdeasListProps) {
                 onSearchChange={setSearchQuery}
             />
 
-            {filteredIdeas.length === 0 ? (
+            {sortedIdeas.length === 0 ? (
                 <Text align="center" color="gray">
                     No ideas found
                 </Text>
             ) : (
-                <Flex direction="column" gap="4">
-                    {filteredIdeas.map((idea) => (
-                        <IdeaCard key={idea.id} idea={idea} />
-                    ))}
-                </Flex>
+                <>
+                    <Flex direction="column" gap="4">
+                        {sortedIdeas.map((idea) => (
+                            <IdeaCard key={idea.id} idea={idea} />
+                        ))}
+                    </Flex>
+
+                    <Flex justify="center" gap="2" mt="4">
+                        <Button
+                            variant="soft"
+                            onClick={() => setPage(page - 1)}
+                            disabled={!hasPrevPage}
+                        >
+                            Previous
+                        </Button>
+                        <Text size="2" align="center" style={{ minWidth: '100px' }}>
+                            Page {page} of {totalPages}
+                        </Text>
+                        <Button
+                            variant="soft"
+                            onClick={() => setPage(page + 1)}
+                            disabled={!hasNextPage}
+                        >
+                            Next
+                        </Button>
+                    </Flex>
+                </>
             )}
         </Flex>
     )

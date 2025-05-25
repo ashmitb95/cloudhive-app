@@ -28,19 +28,43 @@ async function writeIdeas(data: { ideas: Idea[] }): Promise<void> {
     }
 }
 
-export async function getIdeas(page = 1, limit = 10) {
+export async function getIdeas(page = 1, limit = 20, searchQuery = '', filterBy = 'all') {
     const { ideas } = await readIdeas()
+    
+    // Apply search and filter first
+    let filteredIdeas = ideas.filter(idea => {
+        // Apply status filter
+        if (filterBy !== 'all' && idea.status !== filterBy) {
+            return false
+        }
+        
+        // Apply search filter
+        if (searchQuery) {
+            const searchLower = searchQuery.toLowerCase()
+            return (
+                idea.summary.toLowerCase().includes(searchLower) ||
+                idea.description.toLowerCase().includes(searchLower)
+            )
+        }
+        
+        return true
+    })
+
     // Sort ideas by createdAt in descending order (newest first)
-    const sortedIdeas = [...ideas].sort((a, b) => 
+    const sortedIdeas = [...filteredIdeas].sort((a, b) => 
         new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
     )
+
+    // Apply pagination
     const start = (page - 1) * limit
     const end = start + limit
+    
     return {
         ideas: sortedIdeas.slice(start, end),
-        total: ideas.length,
+        total: filteredIdeas.length,
         page,
-        limit
+        limit,
+        totalPages: Math.ceil(filteredIdeas.length / limit)
     }
 }
 
