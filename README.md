@@ -67,7 +67,7 @@ cloudhive-app/
 ## Constraints
 
  - The ideas.json file is present in src/data instead of the root of the app.
- - The styling is minimal/non-existent. It appears there's an issue with the tailwind configuration that I am still debugging. It causes all of the tailwind styling to not get applied.
- - As an extension of the previous point, The components used in this repo are styled radix-ui components. The wrappers were initially created for them but due to styling issues, became diffcult to root-cause why the UI wasnt looking the way it should, and therefore were removed.
+ - ~~ The styling is minimal/non-existent. It appears there's an issue with the tailwind configuration that I am still debugging. It causes all of the tailwind styling to not get applied. ~~
+ -  ~~ As an extension of the previous point, The components used in this repo are styled radix-ui components. The wrappers were initially created for them but due to styling issues, became diffcult to root-cause why the UI wasnt looking the way it should, and therefore were removed. ~~ Project is missing wrappers for extensible reusable primitives
  - While not part of the scope, I intended to deploy this app to vercel to make it ready for use, without needing to check out the repo. The build keeps throwing 500 errors for the listing page.
  The app is therefore deployed to vercel, however not working as expected. Curious to find out why. Did not get the time just yet.
