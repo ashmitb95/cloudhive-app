@@ -56,16 +56,11 @@ export function IdeaForm({ employees }: IdeaFormProps) {
                     </Text>
                 )}
 
-                <TextField.Root>
-                    <TextField.Slot>
-                        <input
-                            placeholder="Summary"
-                            {...register('summary')}
-                            className="w-full px-3 py-2"
-                            disabled={createIdea.isPending}
-                        />
-                    </TextField.Slot>
-                </TextField.Root>
+                <TextField.Root
+                    placeholder="Summary"
+                    {...register('summary')}
+                    disabled={createIdea.isPending}
+                />
                 {errors.summary && (
                     <Text color="red" size="2">{errors.summary.message}</Text>
                 )}
@@ -73,7 +68,6 @@ export function IdeaForm({ employees }: IdeaFormProps) {
                 <TextArea
                     placeholder="Description"
                     {...register('description')}
-                    className="w-full px-3 py-2"
                     disabled={createIdea.isPending}
                 />
                 {errors.description && (
