@@ -93,8 +93,10 @@ export function useVoteIdea() {
 
   return useMutation({
     mutationFn: ({ id, type }: { id: string; type: 'upvote' | 'downvote' }) => voteIdea(id, type),
-    onSuccess: () => {
+    onSuccess: (_, { id }) => {
+      // Invalidate both the ideas list and the individual idea query
       queryClient.invalidateQueries({ queryKey: [IDEAS_QUERY_KEY] })
+      queryClient.invalidateQueries({ queryKey: [IDEAS_QUERY_KEY, id] })
     }
   })
 } 
