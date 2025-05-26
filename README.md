@@ -43,7 +43,6 @@ cloudhive-app/
 - **Idea Details:** Click on an idea to view its full details.
 - **Search & Filter:** Search ideas by keywords, filter by status, and sort by newest, oldest, or priority.
 - **Pagination:** Display 20 ideas per page for performance.
-- **Modern UI:** Responsive, accessible, and visually appealing feed layout.
 
 
 ## Technical Stack
@@ -51,8 +50,7 @@ cloudhive-app/
 - **Next.js 15** (App Router)
 - **React 19**
 - **TypeScript**
-- **TailwindCSS** for styling
-- **Radix UI** for accessible UI primitives
+- **Radix UI** for accessible UI components
 - **TanStack Query** for client-side state management
 - **React Hook Form** for forms
 - **pnpm** as the package manager
@@ -60,15 +58,14 @@ cloudhive-app/
 
 ## Path Aliases
 
-- The `@/` alias points to `src/`, so you can import modules like:
+- The `@/` alias points to `src/`, so module imports need to follow the following convention:
   ```ts
   import Button from '@/components/ui/button'
   import { getIdeas } from '@/lib/actions/server-ideas'
   ```
 
-## Usage
+## Constraints
 
-- **Submit an idea:** Click "Submit Idea" in the header.
-- **Browse ideas:** Use the search bar, filters, and pagination controls.
-- **Vote:** Click the thumbs up/down icons on each idea card.
-- **Responsive:** The feed is always centered and 50% of the viewport on desktop, full width on mobile.
+ - The ideas.json file is present in src/data instead of the root of the app.
+ - The styling is minimal/non-existent. It appears there's an issue with the tailwind configuration that I am still debugging. It causes all of the tailwind styling to not get applied.
+ - As an extension of the previous point, The components used in this repo are styled radix-ui components. The wrappers were initially created for them but due to styling issues, became diffcult to root-cause why the UI wasnt looking the way it should, and therefore were removed.
